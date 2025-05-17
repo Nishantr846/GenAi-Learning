@@ -1,0 +1,13 @@
+prefix=/Users/nishantkumar/llamaindexproject/venv
+exec_prefix=/Users/nishantkumar/llamaindexproject/venv
+libdir=/Users/nishantkumar/llamaindexproject/venv/lib
+sharedlibdir=/Users/nishantkumar/llamaindexproject/venv/lib
+includedir=/Users/nishantkumar/llamaindexproject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
